@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class StackViewController: UIViewController {
+open class ScrollViewController: UIViewController {
     public override func loadView() {
         let view = UIView()
 
