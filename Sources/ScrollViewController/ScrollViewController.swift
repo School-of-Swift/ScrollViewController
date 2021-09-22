@@ -8,8 +8,8 @@
 import Foundation
 import UIKit
 
-class StackViewController: UIViewController {
-    override func loadView() {
+public class StackViewController: UIViewController {
+    public override func loadView() {
         let view = UIView()
 
         view.addSubview(scrollView)
